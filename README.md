@@ -1,22 +1,38 @@
-# 2.0 材质系统自定义shader
+# Cocos Creator 2.x自定义Shader框架
 *Author：大掌教*<br>
---一起做游戏--
 
-**腾讯课堂地址： https://ke.qq.com/course/378768?tuin=3ce6693**
+#### 这是目前 Cocos Creator 最好的自定义Shader框架。
 
-## 目录
-- [前言](#前言)
+是的，你没有看错，是最好的，没有之一！
 
-## 前言
-
-creator 2.x推出了新的Material系统，1.x自定义shader的方式已完全不适用。
-
-本项目由原1.x的shader升级为2.0版本材质系统，为开源社区共享自己的微薄之力。
-
-我在腾讯课堂开了直播课，用捕鱼案例讲解creator游戏开发入门，希望新入坑的同学可以关注。
+<div align=center>
+<img src="screenshots/cover.gif"  />
+</div>
 
 
-## 源码地址
+-----
+
+### 2.0.10新版本特性
+- 新增封面和BGM，特别适合在晚上夜深人静的时候研究 **shader**，根本停不下来
+- 新增常用**Shader**特效，无脑傻瓜式挂到节点就可使用
+- 其他有趣的玩具，玩通宵没问题
+
+我将自定义材质和渲染组件做了封装，可以参考也可以自己改
+
+如果要自定义shader，只需要按照GLSL写片段shader即可，然后加入到 **ShaderFSH**中，枚举类型加入名称
+
+
+## 更多学习交流，请关注我的微信公众号，有关注不迷路
+
+
+#### 直接搜索公众号ID：darkpalm
+#### 或者掏出手机扫码：
+
+<div align=center>
+<img src="https://img-blog.csdnimg.cn/20190605101043274.png"  />
+</div>
+
+
 
 ##### github地址: [https://github.com/fylz1125/ShaderDemos](https://github.com/fylz1125/ShaderDemos)
 
